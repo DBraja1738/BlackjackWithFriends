@@ -78,7 +78,7 @@ class BlackjackGame {
 
     if (playerValue > 21) return 'Player Busts!';
     if (dealerValue > 21) return 'Dealer Busts! Player Wins!';
-    if (playerValue == dealerValue) return 'Push';
+    if (playerValue == dealerValue) return 'Tie!';
     if (playerValue > dealerValue) return 'Player Wins!';
     return 'Dealer Wins!';
   }
